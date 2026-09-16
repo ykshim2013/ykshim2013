@@ -1,18 +1,8 @@
-# Youngkyu Shim
+# YK Shim
 
 **Pediatric Neurologist · Computational Variant Analysis**
 
-Division of Pediatric Neurology, Department of Pediatrics
-Korea University Ansan Hospital, Korea University College of Medicine · Ansan, Republic of Korea
-
-I work at the interface of pediatric epilepsy genetics and structural bioinformatics. My current
-research applies physics-based ΔΔG prediction to missense variants in neurodevelopmental disease
-genes, asking whether a given variant acts through **protein destabilization** or through a
-**stability-neutral functional mechanism** — a distinction that sequence-based pathogenicity
-predictors do not resolve. Alongside this, I build and maintain open clinical decision-support
-tools for pediatric practice.
-
-`Python` · `FoldX` · `Rosetta` `cartesian_ddG` · `AlphaFold3` · `GROMACS` · `R` · `TypeScript`
+`Python` · `FoldX` · `Rosetta` `cartesian_ddG` · `AlphaFold3` · `GROMACS` · `R`
 
 ---
 
@@ -31,7 +21,9 @@ pathogenic variants were depleted of stability-neutral cases (0.40-fold, adjuste
 while S4 voltage-sensor variants were enriched for them (2.32-fold, adjusted *p* = 0.013).
 ΔΔG > 2.0 kcal/mol reached ≈ 0.98 specificity as supporting evidence for pathogenicity.
 
-### Methods & protocols
+---
+
+## Methods & protocols
 
 Reproducible, protein-agnostic pipelines extracted from the work above.
 
@@ -42,50 +34,7 @@ Reproducible, protein-agnostic pipelines extracted from the work above.
 
 ---
 
-## Clinical decision support
-
-Browser-based tools intended for use by qualified clinicians at the point of care.
-
-### [ASM Formulary](https://ykshim2013.github.io/asm-choice/) · [`asm-choice`](https://github.com/ykshim2013/asm-choice)
-
-A prescribing reference for antiseizure medication covering **31 agents**, adult and pediatric.
-Each monograph carries mechanism, starting dose, escalation schedule, target blood levels, and the
-safety checks that belong before the first tablet — with weight-based calculators built in. Drug
-selection is organized by seizure type and patient circumstance, with guideline ordering annotated
-by the flags that matter for that individual. Doses are transcribed from US prescribing information
-and named guidelines, cited throughout.
-
-| Repository | Tool | |
-|---|---|---|
-| [pediatric-hyperkalemia-tool](https://github.com/ykshim2013/pediatric-hyperkalemia-tool) | Hyperkalemia management, ages 0–18 | [Open ↗](https://ykshim2013.github.io/pediatric-hyperkalemia-tool/) |
-| [med-calculator](https://github.com/ykshim2013/med-calculator) | Weight-based dosing, IV drip rates, drug dilution | [Open ↗](https://ykshim2013.github.io/med-calculator/) |
-| [ASM_choice](https://github.com/ykshim2013/ASM_choice) | Antiseizure medication selection protocol | [Open ↗](https://ykshim2013.github.io/ASM_choice/) |
-| [electro2026](https://github.com/ykshim2013/electro2026) | Electrolyte management suite | — |
-| [m-chat-screening](https://github.com/ykshim2013/m-chat-screening) | M-CHAT-R/F autism spectrum screening | — |
-
-## Clinical reference resources
-
-| Repository | Content | |
-|---|---|---|
-| [Epilepsy_Gene_DB](https://github.com/ykshim2013/Epilepsy_Gene_DB) | ClinVar P/LP variant analysis with phenotype review across *SCN2A*, *EEF1A2*, *KCNQ2*, *SYNGAP1*, *CDKL5* | [Open ↗](https://ykshim2013.github.io/Epilepsy_Gene_DB/) |
-| [pediatric-mogad-review](https://github.com/ykshim2013/pediatric-mogad-review) | Evidence-based review of pediatric MOGAD clinical course, PMID-verified | [Open ↗](https://ykshim2013.github.io/pediatric-mogad-review/) |
-
-## Teaching
-
-| Repository | Material | |
-|---|---|---|
-| [Brain_Imaging_2601](https://github.com/ykshim2013/Brain_Imaging_2601) | Pediatric brain MRI for neurologists | [Open ↗](https://ykshim2013.github.io/Brain_Imaging_2601/) |
-| [Seizure_Semiology](https://github.com/ykshim2013/Seizure_Semiology) | Pediatric seizure semiology video resources | [Open ↗](https://ykshim2013.github.io/Seizure_Semiology/) |
-| [PED_Neuro_seizure](https://github.com/ykshim2013/PED_Neuro_seizure) | Pediatric neurology lectures for medical students | [Open ↗](https://ykshim2013.github.io/PED_Neuro_seizure/) |
-
----
-
 ## Publications
-
-<details>
-<summary><strong>Peer-reviewed publications</strong></summary>
-
-<br>
 
 **First author**
 
@@ -105,16 +54,10 @@ and named guidelines, cited throughout.
 11. Yoo IH, Kim W, **Shim Y**, Choi SA, Kim SY, Kim H, et al. Clinical spectrum of myelin oligodendrocyte glycoprotein-immunoglobulin G-associated disease in Korean children. *Journal of Clinical Neurology*. 2020. [10.3988/jcn.2020.16.3.461](https://doi.org/10.3988/jcn.2020.16.3.461)
 12. Choi TY, Kim YK, **Shim Y**, Shin M. A stepwise household transmission of vaccine-strain varicella-zoster virus resulting in neonatal varicella. *Infection & Chemotherapy*. 2026. [10.3947/ic.2025.0133](https://doi.org/10.3947/ic.2025.0133)
 
-</details>
-
 ---
 
 ## Contact
 
-Open to collaboration on variant-effect prediction, epilepsy genetics, and clinical decision-support
-tooling.
+Open to collaboration on variant-effect prediction and epilepsy genetics.
 
 📧 [ykshim2013@gmail.com](mailto:ykshim2013@gmail.com)
-
-> Clinical tools in this profile are decision-support aids for qualified healthcare professionals.
-> They do not replace clinical judgment and are not a substitute for institutional protocols.
