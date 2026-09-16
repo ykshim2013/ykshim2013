@@ -42,24 +42,33 @@ Reproducible, protein-agnostic pipelines extracted from the work above.
 
 ---
 
+## Clinical decision support
+
+Browser-based tools intended for use by qualified clinicians at the point of care.
+
+### [ASM Formulary](https://ykshim2013.github.io/asm-choice/) · [`asm-choice`](https://github.com/ykshim2013/asm-choice)
+
+A prescribing reference for antiseizure medication covering **31 agents**, adult and pediatric.
+Each monograph carries mechanism, starting dose, escalation schedule, target blood levels, and the
+safety checks that belong before the first tablet — with weight-based calculators built in. Drug
+selection is organized by seizure type and patient circumstance, with guideline ordering annotated
+by the flags that matter for that individual. Doses are transcribed from US prescribing information
+and named guidelines, cited throughout.
+
+| Repository | Tool | |
+|---|---|---|
+| [pediatric-hyperkalemia-tool](https://github.com/ykshim2013/pediatric-hyperkalemia-tool) | Hyperkalemia management, ages 0–18 | [Open ↗](https://ykshim2013.github.io/pediatric-hyperkalemia-tool/) |
+| [med-calculator](https://github.com/ykshim2013/med-calculator) | Weight-based dosing, IV drip rates, drug dilution | [Open ↗](https://ykshim2013.github.io/med-calculator/) |
+| [ASM_choice](https://github.com/ykshim2013/ASM_choice) | Antiseizure medication selection protocol | [Open ↗](https://ykshim2013.github.io/ASM_choice/) |
+| [electro2026](https://github.com/ykshim2013/electro2026) | Electrolyte management suite | — |
+| [m-chat-screening](https://github.com/ykshim2013/m-chat-screening) | M-CHAT-R/F autism spectrum screening | — |
+
 ## Clinical reference resources
 
 | Repository | Content | |
 |---|---|---|
 | [Epilepsy_Gene_DB](https://github.com/ykshim2013/Epilepsy_Gene_DB) | ClinVar P/LP variant analysis with phenotype review across *SCN2A*, *EEF1A2*, *KCNQ2*, *SYNGAP1*, *CDKL5* | [Open ↗](https://ykshim2013.github.io/Epilepsy_Gene_DB/) |
 | [pediatric-mogad-review](https://github.com/ykshim2013/pediatric-mogad-review) | Evidence-based review of pediatric MOGAD clinical course, PMID-verified | [Open ↗](https://ykshim2013.github.io/pediatric-mogad-review/) |
-| [ASM_choice](https://github.com/ykshim2013/ASM_choice) | Antiseizure medication selection protocol | [Open ↗](https://ykshim2013.github.io/asm-choice/) |
-
-## Clinical decision support
-
-Browser-based calculators intended for use by clinicians at the point of care.
-
-| Repository | Tool | |
-|---|---|---|
-| [pediatric-hyperkalemia-tool](https://github.com/ykshim2013/pediatric-hyperkalemia-tool) | Hyperkalemia management, ages 0–18 | [Open ↗](https://ykshim2013.github.io/pediatric-hyperkalemia-tool/) |
-| [med-calculator](https://github.com/ykshim2013/med-calculator) | Weight-based dosing, IV drip rates, drug dilution | [Open ↗](https://ykshim2013.github.io/med-calculator/) |
-| [electro2026](https://github.com/ykshim2013/electro2026) | Electrolyte management suite | — |
-| [m-chat-screening](https://github.com/ykshim2013/m-chat-screening) | M-CHAT-R/F autism spectrum screening | — |
 
 ## Teaching
 
