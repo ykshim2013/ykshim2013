@@ -17,6 +17,7 @@
 |---|---|
 | [foldx-stability-protocol](https://github.com/ykshim2013/foldx-stability-protocol) | FoldX ΔΔG — `RepairPDB` → `BuildModel`, batched with replicate statistics |
 | [rosetta-ddg-protocol](https://github.com/ykshim2013/rosetta-ddg-protocol) | Rosetta `cartesian_ddG` — constrained relax → backbone-flexible ΔΔG |
+| [gromacs-md-protocol](https://github.com/ykshim2013/gromacs-md-protocol) | GROMACS MD — solvate → equilibrate → replicate production, AMBER99SB-ILDN and CHARMM36 |
 
 ## Publications
 
